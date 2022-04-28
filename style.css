@@ -1,0 +1,29 @@
+.wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #262422;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.circle {
+  border-radius: 50%;
+  transition: 1s;
+}
